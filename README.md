@@ -8,7 +8,7 @@
 platform :ios, '13.0'
 use_frameworks!
 
-pod 'SDSwiftUtils', '~> 0.1.0'
+pod 'SDSwiftUtils', '~> 0.1.1'
 ```
 
 然后运行 `pod install`，并在代码中导入：

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'SDSwiftUtils'
-  spec.version          = '0.1.0'
+  spec.version          = '0.1.1'
   spec.summary          = 'Lightweight, dependency-free utilities for Swift.'
   spec.description      = <<-DESC
     SDSwiftUtils provides small, reusable helpers for common Swift tasks while
