@@ -8,7 +8,7 @@
 platform :ios, '13.0'
 use_frameworks!
 
-pod 'SDSwiftUtils', '~> 0.1.1'
+pod 'SDSwiftUtils', '~> 0.1.2'
 ```
 
 然后运行 `pod install`，并在代码中导入：
@@ -30,6 +30,15 @@ https://github.com/gd-liusida/swift-utils.git
 ```swift
 let value = ["a", "b"][safe: 3] // nil
 let blank = Optional<String>.none.isNilOrBlank // true
+```
+
+### 日志
+
+```swift
+SDLog.debug("debug message")
+SDLog.info("application started")
+SDLog.warning("low disk space")
+SDLog.error("request failed")
 ```
 
 ## License
